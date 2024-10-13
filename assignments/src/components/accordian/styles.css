@@ -15,7 +15,7 @@ flex-direction: column;
     align-items: center; 
 }
 
-.question {
+.question {     
     display: flex;
     width: 100%;
     font-size: 1.4rem;
@@ -34,5 +34,22 @@ button {
     background-color: #f5ab66;
     border: none;
     font-weight: bold;
+}
+
+/* STAR-RATING */
+
+.star-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.active{
+    color: rgb(231, 202, 34);
+}
+
+.inactive{
+    color: black;
 }
 
